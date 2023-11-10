@@ -1,0 +1,15 @@
+- id: SimpleUnreachable1
+  apk: UnreachableCode/SimpleUnreachable1.apk
+  expected: 0
+
+- id: UnreachableBoth
+  apk: UnreachableCode/UnreachableBoth.apk
+  expected: 0
+
+- id: UnreachableSink1
+  apk: UnreachableCode/UnreachableSink1.apk
+  expected: 0
+
+- id: UnreachableSource1
+  apk: UnreachableCode/UnreachableSource1.apk
+  expected: 0

@@ -1,0 +1,23 @@
+- id: AsyncTask1
+  apk: Threading/AsyncTask1.apk
+  expected: 1
+
+- id: Executor1
+  apk: Threading/Executor1.apk
+  expected: 1
+
+- id: JavaThread1
+  apk: Threading/JavaThread1.apk
+  expected: 1
+
+- id: JavaThread2
+  apk: Threading/JavaThread2.apk
+  expected: 1
+
+- id: Looper1
+  apk: Threading/Looper1.apk
+  expected: 1
+
+- id: TimerTask1
+  apk: Threading/TimerTask1.apk
+  expected: 1

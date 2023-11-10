@@ -1,0 +1,15 @@
+- id: BytecodeTamper1
+  apk: SelfModification/BytecodeTamper1.apk
+  expected: 1
+
+- id: BytecodeTamper2
+  apk: SelfModification/BytecodeTamper2.apk
+  expected: 1
+
+- id: BytecodeTamper3
+  apk: SelfModification/BytecodeTamper3.apk
+  expected: 1
+
+- id: BytecodeTamper4
+  apk: SelfModification/BytecodeTamper4.apk
+  expected: 0

@@ -1,0 +1,27 @@
+- id: FieldSensitivity1
+  apk: FieldAndObjectSensitivity/FieldSensitivity1.apk
+  expected: 0
+
+- id: FieldSensitivity2
+  apk: FieldAndObjectSensitivity/FieldSensitivity2.apk
+  expected: 0
+
+- id: FieldSensitivity3
+  apk: FieldAndObjectSensitivity/FieldSensitivity3.apk
+  expected: 1
+
+- id: FieldSensitivity4
+  apk: FieldAndObjectSensitivity/FieldSensitivity4.apk
+  expected: 1
+
+- id: InheritedObjects1
+  apk: FieldAndObjectSensitivity/InheritedObjects1.apk
+  expected: 1
+
+- id: ObjectSensitivity1
+  apk: FieldAndObjectSensitivity/ObjectSensitivity1.apk
+  expected: 0
+
+- id: ObjectSensitivity2
+  apk: FieldAndObjectSensitivity/ObjectSensitivity2.apk
+  expected: 0

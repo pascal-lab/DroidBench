@@ -1,0 +1,39 @@
+- id: ActivityCommunication2
+  apk: Reflection_ICC/ActivityCommunication2.apk
+  expected: 1
+
+- id: AllReflection
+  apk: Reflection_ICC/AllReflection.apk
+  expected: 1
+
+- id: OnlyIntent
+  apk: Reflection_ICC/OnlyIntent.apk
+  expected: 1
+
+- id: OnlyIntentReceive
+  apk: Reflection_ICC/OnlyIntentReceive.apk
+  expected: 1
+
+- id: OnlySMS
+  apk: Reflection_ICC/OnlySMS.apk
+  expected: 1
+
+- id: OnlyTelephony
+  apk: Reflection_ICC/OnlyTelephony.apk
+  expected: 1
+
+- id: OnlyTelephony_Dynamic
+  apk: Reflection_ICC/OnlyTelephony_Dynamic.apk
+  expected: 1
+
+- id: OnlyTelephony_Reverse
+  apk: Reflection_ICC/OnlyTelephony_Reverse.apk
+  expected: 1
+
+- id: OnlyTelephony_Substring
+  apk: Reflection_ICC/OnlyTelephony_Substring.apk
+  expected: 1
+
+- id: SharedPreferences1
+  apk: Reflection_ICC/SharedPreferences1.apk
+  expected: 1

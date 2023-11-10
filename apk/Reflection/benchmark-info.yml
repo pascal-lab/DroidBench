@@ -1,0 +1,35 @@
+- id: Reflection1
+  apk: Reflection/Reflection1.apk
+  expected: 1
+
+- id: Reflection2
+  apk: Reflection/Reflection2.apk
+  expected: 1
+
+- id: Reflection3
+  apk: Reflection/Reflection3.apk
+  expected: 1
+
+- id: Reflection4
+  apk: Reflection/Reflection4.apk
+  expected: 1
+
+- id: Reflection5
+  apk: Reflection/Reflection5.apk
+  expected: 1
+
+- id: Reflection6
+  apk: Reflection/Reflection6.apk
+  expected: 1
+
+- id: Reflection7
+  apk: Reflection/Reflection7.apk
+  expected: 1
+
+- id: Reflection8
+  apk: Reflection/Reflection8.apk
+  expected: 1
+
+- id: Reflection9
+  apk: Reflection/Reflection9.apk
+  expected: 1

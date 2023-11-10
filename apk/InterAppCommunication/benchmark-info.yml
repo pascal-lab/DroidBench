@@ -1,0 +1,43 @@
+- id: Echoer
+  apk: InterAppCommunication/Echoer.apk
+  expected: 3
+
+- id: SendSMS
+  apk: InterAppCommunication/SendSMS.apk
+  expected: 3
+
+- id: StartActivityForResult1
+  apk: InterAppCommunication/StartActivityForResult1.apk
+  expected: 6
+
+- id: Collector
+  apk: InterAppCommunication/Collector/Collector.apk
+  expected: 2
+
+- id: DeviceId_Broadcast1
+  apk: InterAppCommunication/Device Id leakage/DeviceId_Broadcast1.apk
+  expected: 1
+
+- id: DeviceId_contentProvider1
+  apk: InterAppCommunication/Device Id leakage/DeviceId_contentProvider1.apk
+  expected: 1
+
+- id: DeviceId_OrderedIntent1
+  apk: InterAppCommunication/Device Id leakage/DeviceId_OrderedIntent1.apk
+  expected: 1
+
+- id: DeviceId_Service1
+  apk: InterAppCommunication/Device Id leakage/DeviceId_Service1.apk
+  expected: 1
+
+- id: Location1
+  apk: InterAppCommunication/Location leakage/Location1.apk
+  expected: 2
+
+- id: Location_Broadcast1
+  apk: InterAppCommunication/Location leakage/Location_Broadcast1.apk
+  expected: 2
+
+- id: Location_Service1
+  apk: InterAppCommunication/Location leakage/Location_Service1.apk
+  expected: 2

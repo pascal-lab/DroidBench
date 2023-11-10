@@ -1,0 +1,19 @@
+- id: JavaIDFunction
+  apk: Native/JavaIDFunction.apk
+  expected: 1
+
+- id: NativeIDFunction
+  apk: Native/NativeIDFunction.apk
+  expected: 1
+
+- id: SinkInNativeCode
+  apk: Native/SinkInNativeCode.apk
+  expected: 1
+
+- id: SinkInNativeLibCode
+  apk: Native/SinkInNativeLibCode.apk
+  expected: 1
+
+- id: SourceInNativeCode
+  apk: Native/SourceInNativeCode.apk
+  expected: 1

@@ -1,0 +1,60 @@
+- id: AnonymousClass1
+  apk: Callbacks/AnonymousClass1.apk
+  expected: 1
+
+- id: Button1
+  apk: Callbacks/Button1.apk
+  expected: 1
+
+- id: Button2
+  apk: Callbacks/Button2.apk
+  expected: 3
+
+- id: Button3
+  apk: Callbacks/Button3.apk
+  expected: 1
+
+- id: Button4
+  apk: Callbacks/Button4.apk
+  expected: 1
+
+- id: Button5
+  apk: Callbacks/Button5.apk
+  expected: 1
+
+- id: LocationLeak1
+  apk: Callbacks/LocationLeak1.apk
+  expected: 2
+
+- id: LocationLeak2
+  apk: Callbacks/LocationLeak2.apk
+  expected: 2
+
+- id: LocationLeak3
+  apk: Callbacks/LocationLeak3.apk
+  expected: 1
+
+- id: MethodOverride1
+  apk: Callbacks/MethodOverride1.apk
+  expected: 1
+
+- id: MultiHandlers1
+  apk: Callbacks/MultiHandlers1.apk
+  expected: 0
+
+- id: Ordering1
+  apk: Callbacks/Ordering1.apk
+  expected: 0
+
+- id: RegisterGlobal1
+  apk: Callbacks/RegisterGlobal1.apk
+  expected: 1
+
+- id: RegisterGlobal2
+  apk: Callbacks/RegisterGlobal2.apk
+  expected: 1
+
+- id: Unregister1
+  apk: Callbacks/Unregister1.apk
+  expected: 0
+

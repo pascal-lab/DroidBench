@@ -1,0 +1,40 @@
+- id: ArrayAccess1
+  apk: ArraysAndLists/ArrayAccess1.apk
+  expected: 0
+
+- id: ArrayAccess2
+  apk: ArraysAndLists/ArrayAccess2.apk
+  expected: 0
+
+- id: ArrayAccess3
+  apk: ArraysAndLists/ArrayAccess3.apk
+  expected: 1
+
+- id: ArrayAccess4
+  apk: ArraysAndLists/ArrayAccess4.apk
+  expected: 0
+
+- id: ArrayAccess5
+  apk: ArraysAndLists/ArrayAccess5.apk
+  expected: 0
+
+- id: ArrayCopy1
+  apk: ArraysAndLists/ArrayCopy1.apk
+  expected: 1
+
+- id: ArrayToString1
+  apk: ArraysAndLists/ArrayToString1.apk
+  expected: 1
+
+- id: HashMapAccess1
+  apk: ArraysAndLists/HashMapAccess1.apk
+  expected: 0
+
+- id: ListAccess1
+  apk: ArraysAndLists/ListAccess1.apk
+  expected: 0
+
+- id: MultidimensionalArray1
+  apk: ArraysAndLists/MultidimensionalArray1.apk
+  expected: 1
+

@@ -1,0 +1,71 @@
+- id: ActivityCommunication1
+  apk: InterComponentCommunication/ActivityCommunication1.apk
+  expected: 1
+
+- id: ActivityCommunication2
+  apk: InterComponentCommunication/ActivityCommunication2.apk
+  expected: 1
+
+- id: ActivityCommunication3
+  apk: InterComponentCommunication/ActivityCommunication3.apk
+  expected: 1
+
+- id: ActivityCommunication4
+  apk: InterComponentCommunication/ActivityCommunication4.apk
+  expected: 1
+
+- id: ActivityCommunication5
+  apk: InterComponentCommunication/ActivityCommunication5.apk
+  expected: 1
+
+- id: ActivityCommunication6
+  apk: InterComponentCommunication/ActivityCommunication6.apk
+  expected: 1
+
+- id: ActivityCommunication7
+  apk: InterComponentCommunication/ActivityCommunication7.apk
+  expected: 1
+
+- id: ActivityCommunication8
+  apk: InterComponentCommunication/ActivityCommunication8.apk
+  expected: 1
+
+- id: BroadcastTaintAndLeak1
+  apk: InterComponentCommunication/BroadcastTaintAndLeak1.apk
+  expected: 1
+
+- id: ComponentNotInManifest1
+  apk: InterComponentCommunication/ComponentNotInManifest1.apk
+  expected: 0
+
+- id: EventOrdering1
+  apk: InterComponentCommunication/EventOrdering1.apk
+  expected: 1
+
+- id: IntentSink1
+  apk: InterComponentCommunication/IntentSink1.apk
+  expected: 1
+
+- id: IntentSink2
+  apk: InterComponentCommunication/IntentSink2.apk
+  expected: 1
+
+- id: IntentSource1
+  apk: InterComponentCommunication/IntentSource1.apk
+  expected: 1
+
+- id: ServiceCommunication1
+  apk: InterComponentCommunication/ServiceCommunication1.apk
+  expected: 1
+
+- id: SharedPreferences1
+  apk: InterComponentCommunication/SharedPreferences1.apk
+  expected: 1
+
+- id: Singletons1
+  apk: InterComponentCommunication/Singletons1.apk
+  expected: 1
+
+- id: UnresolvableIntent1
+  apk: InterComponentCommunication/UnresolvableIntent1.apk
+  expected: 1

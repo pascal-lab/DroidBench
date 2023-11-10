@@ -1,0 +1,23 @@
+- id: ImplicitFlow1
+  apk: ImplicitFlows/ImplicitFlow1.apk
+  expected: 1
+
+- id: ImplicitFlow2
+  apk: ImplicitFlows/ImplicitFlow2.apk
+  expected: 2
+
+- id: ImplicitFlow3
+  apk: ImplicitFlows/ImplicitFlow3.apk
+  expected: 2
+
+- id: ImplicitFlow4
+  apk: ImplicitFlows/ImplicitFlow4.apk
+  expected: 2
+
+- id: ImplicitFlow5
+  apk: ImplicitFlows/ImplicitFlow5.apk
+  expected: 1
+
+- id: ImplicitFlow6
+  apk: ImplicitFlows/ImplicitFlow6.apk
+  expected: 0

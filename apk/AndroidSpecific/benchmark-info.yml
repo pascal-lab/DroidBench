@@ -1,0 +1,56 @@
+- id: ApplicationModeling1
+  apk: AndroidSpecific/ApplicationModeling1.apk
+  expected: 1
+
+- id: DirectLeak1
+  apk: AndroidSpecific/DirectLeak1.apk
+  expected: 1
+
+- id: InactiveActivity
+  apk: AndroidSpecific/InactiveActivity.apk
+  expected: 0
+
+- id: Library2
+  apk: AndroidSpecific/Library2.apk
+  expected: 1
+
+- id: LogNoLeak
+  apk: AndroidSpecific/LogNoLeak.apk
+  expected: 0
+
+- id: Obfuscation1
+  apk: AndroidSpecific/Obfuscation1.apk
+  expected: 1
+
+- id: Parcel1
+  apk: AndroidSpecific/Parcel1.apk
+  expected: 1
+
+- id: PrivateDataLeak1
+  apk: AndroidSpecific/PrivateDataLeak1.apk
+  expected: 1
+
+- id: PrivateDataLeak2
+  apk: AndroidSpecific/PrivateDataLeak2.apk
+  expected: 1
+
+- id: PrivateDataLeak3
+  apk: AndroidSpecific/PrivateDataLeak3.apk
+  expected: 2
+
+- id: PublicAPIField1
+  apk: AndroidSpecific/PublicAPIField1.apk
+  expected: 1
+
+- id: PublicAPIField2
+  apk: AndroidSpecific/PublicAPIField2.apk
+  expected: 1
+
+- id: PublicAPIField2
+  apk: AndroidSpecific/PublicAPIField2.apk
+  expected: 1
+
+- id: View1
+  apk: AndroidSpecific/View1.apk
+  expected: 1
+

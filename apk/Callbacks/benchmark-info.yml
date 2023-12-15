@@ -1,6 +1,6 @@
 - id: AnonymousClass1
   apk: Callbacks/AnonymousClass1.apk
-  expected: 1
+  expected: 2
 
 - id: Button1
   apk: Callbacks/Button1.apk

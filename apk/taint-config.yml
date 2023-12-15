@@ -1,8 +1,16 @@
 sources:
   - { kind: call, method: "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>", index: result }
+  - { kind: call, method: "<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>", index: result }
+  - { kind: call, method: "<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>", index: result }
+  - { kind: call, method: "<android.location.Location: double getLatitude()>", index: result }
+  - { kind: call, method: "<android.location.Location: double getLongitude()>", index: result }
 
 sinks:
   - { method: "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>", index: 2 }
+  - { method: "<android.util.Log: int i(java.lang.String,java.lang.String)>", index: 1 }
+  - { method: "<android.util.Log: int d(java.lang.String,java.lang.String)>", index: 1 }
+  - { method: "<android.util.Log: int v(java.lang.String,java.lang.String)>", index: 1 }
+  - { method: "<java.net.URL: java.net.URLConnection openConnection()>", index: base }
 
 transfers:
   - { method: "<java.lang.String: java.lang.String concat(java.lang.String)>", from: base, to: result }
@@ -16,7 +24,14 @@ transfers:
   - { method: "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>", from: 0, to: base }
   - { method: "<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>", from: 0, to: base }
   - { method: "<java.lang.StringBuilder: java.lang.String toString()>", from: base, to: result }
-
+  - { method: "<java.lang.StringBuilder: java.lang.StringBuilder append(double)>", from: 0, to: base }
+  - { method: "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>", from: 0, to: base }
+  - { method: "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>", from: 0, to: base }
+  - { method: "<java.lang.Double: java.lang.String toString(double)>", from: 0, to: result }
+  - { method: "<java.lang.ProcessBuilder: java.lang.ProcessBuilder command(java.lang.String[])>", from: 0, to: base }
+  - { method: "<java.net.URL: void <init>(java.lang.String)>", from: 0, to: base }
+  - { method: "<java.lang.Integer: int parseInt(java.lang.String)>", from: 0, to: result }
+  - { method: "<java.lang.Long: long parseLong(java.lang.String)>", from: 0, to: result }
 sanitizers:
 
 call-site-mode: true

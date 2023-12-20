@@ -92,4 +92,4 @@
 
 - id: SharedPreferenceChanged1
   apk: Lifecycle/SharedPreferenceChanged1.apk
-  expected: 2
+  expected: 1

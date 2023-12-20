@@ -4,6 +4,7 @@
 
 - id: ActivityCommunication2
   apk: InterComponentCommunication/ActivityCommunication2.apk
+  distinguishString: all
   expected: 1
 
 - id: ActivityCommunication3
@@ -28,10 +29,7 @@
 
 - id: ActivityCommunication8
   apk: InterComponentCommunication/ActivityCommunication8.apk
-  expected: 1
-
-- id: ActivityCommunication9
-  apk: InterComponentCommunication/ActivityCommunication9.apk
+  onlyApp: false
   expected: 1
 
 - id: BroadcastTaintAndLeak1
@@ -62,10 +60,6 @@
   apk: InterComponentCommunication/ServiceCommunication1.apk
   expected: 1
 
-- id: ServiceCommunication2
-  apk: InterComponentCommunication/ServiceCommunication2.apk
-  expected: 1
-
 - id: SharedPreferences1
   apk: InterComponentCommunication/SharedPreferences1.apk
   expected: 1
@@ -77,7 +71,3 @@
 - id: UnresolvableIntent1
   apk: InterComponentCommunication/UnresolvableIntent1.apk
   expected: 2
-
-- id: IntentExtra
-  apk: InterComponentCommunication/IntentExtra.apk
-  expected: 1

@@ -40,6 +40,8 @@
 
 - id: MultiHandlers1
   apk: Callbacks/MultiHandlers1.apk
+  onlyApp: false
+  cs: 1-call
   expected: 0
 
 - id: Ordering1

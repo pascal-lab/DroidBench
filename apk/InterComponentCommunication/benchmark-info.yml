@@ -1,104 +1,103 @@
 - id: ActivityCommunication1
-  apk: InterComponentCommunication/ActivityCommunication1.apk
+  apk: ActivityCommunication1.apk
   expected: 1
 
 - id: ActivityCommunication2
-  apk: InterComponentCommunication/ActivityCommunication2.apk
+  apk: ActivityCommunication2.apk
   expected: 1
 
 - id: ActivityCommunication3
-  apk: InterComponentCommunication/ActivityCommunication3.apk
+  apk: ActivityCommunication3.apk
   expected: 1
 
 - id: ActivityCommunication4
-  apk: InterComponentCommunication/ActivityCommunication4.apk
+  apk: ActivityCommunication4.apk
   expected: 1
 
 - id: ActivityCommunication5
-  apk: InterComponentCommunication/ActivityCommunication5.apk
+  apk: ActivityCommunication5.apk
   expected: 1
 
 - id: ActivityCommunication6
-  apk: InterComponentCommunication/ActivityCommunication6.apk
+  apk: ActivityCommunication6.apk
   expected: 1
 
 - id: ActivityCommunication7
-  apk: InterComponentCommunication/ActivityCommunication7.apk
+  apk: ActivityCommunication7.apk
   expected: 1
 
 - id: ActivityCommunication8
-  apk: InterComponentCommunication/ActivityCommunication8.apk
-  onlyApp: false
+  apk: ActivityCommunication8.apk
   expected: 1
 
 - id: BroadcastTaintAndLeak1
-  apk: InterComponentCommunication/BroadcastTaintAndLeak1.apk
+  apk: BroadcastTaintAndLeak1.apk
   expected: 1
 
 - id: ComponentNotInManifest1
-  apk: InterComponentCommunication/ComponentNotInManifest1.apk
+  apk: ComponentNotInManifest1.apk
   expected: 0
 
 - id: EventOrdering1
-  apk: InterComponentCommunication/EventOrdering1.apk
+  apk: EventOrdering1.apk
   expected: 1
 
 - id: IntentSink1
-  apk: InterComponentCommunication/IntentSink1.apk
+  apk: IntentSink1.apk
   expected: 1
 
 - id: IntentSink2
-  apk: InterComponentCommunication/IntentSink2.apk
+  apk: IntentSink2.apk
   expected: 1
 
 - id: IntentSource1
-  apk: InterComponentCommunication/IntentSource1.apk
+  apk: IntentSource1.apk
   expected: 1
 
 - id: ServiceCommunication1
-  apk: InterComponentCommunication/ServiceCommunication1.apk
+  apk: ServiceCommunication1.apk
   expected: 1
 
 - id: SharedPreferences1
-  apk: InterComponentCommunication/SharedPreferences1.apk
+  apk: SharedPreferences1.apk
   expected: 1
 
 - id: Singletons1
-  apk: InterComponentCommunication/Singletons1.apk
+  apk: Singletons1.apk
   expected: 1
 
 - id: UnresolvableIntent1
-  apk: InterComponentCommunication/UnresolvableIntent1.apk
+  apk: UnresolvableIntent1.apk
   expected: 2
 
 - id: ActivityCommunication9 # reply
-  apk: InterComponentCommunication/ActivityCommunication9.apk
+  apk: ActivityCommunication9.apk
   expected: 1
 
 - id: ServiceCommunication2 # reply
-  apk: InterComponentCommunication/ServiceCommunication2.apk
+  apk: ServiceCommunication2.apk
   expected: 1
 
 - id: IntentExtra # intent map
-  apk: InterComponentCommunication/IntentExtra.apk
+  apk: IntentExtra.apk
   expected: 1
 
 - id: ICCData # icc data
-  apk: InterComponentCommunication/ICCData.apk
+  apk: ICCData.apk
   expected: 1
 
 - id: ICCData2 # icc data
-  apk: InterComponentCommunication/ICCData2.apk
+  apk: ICCData2.apk
   expected: 1
 
 - id: Handler # handler model
-  apk: InterComponentCommunication/Handler.apk
+  apk: Handler.apk
   expected: 1
 
 - id: SecondStart # second start receiver
-  apk: InterComponentCommunication/SecondStart.apk
+  apk: SecondStart.apk
   expected: 1
 
 - id: SecondStart2 # second start service onStartCommand
-  apk: InterComponentCommunication/SecondStart2.apk
+  apk: SecondStart2.apk
   expected: 1

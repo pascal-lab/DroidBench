@@ -1,59 +1,59 @@
 - id: Battery1
-  apk: EmulatorDetection/Battery1.apk
+  apk: Battery1.apk
   expected: 1
 
 - id: Bluetooth1
-  apk: EmulatorDetection/Bluetooth1.apk
+  apk: Bluetooth1.apk
   expected: 1
 
 - id: Build1
-  apk: EmulatorDetection/Build1.apk
+  apk: Build1.apk
   expected: 1
 
 - id: Contacts1
-  apk: EmulatorDetection/Contacts1.apk
+  apk: Contacts1.apk
   expected: 1
 
 - id: ContentProvider1
-  apk: EmulatorDetection/ContentProvider1.apk
+  apk: ContentProvider1.apk
   expected: 2
 
 - id: DeviceId1
-  apk: EmulatorDetection/DeviceId1.apk
+  apk: DeviceId1.apk
   expected: 1
 
 - id: File1
-  apk: EmulatorDetection/File1.apk
+  apk: File1.apk
   expected: 1
 
 - id: IMEI1
-  apk: EmulatorDetection/IMEI1.apk
+  apk: IMEI1.apk
   expected: 2
 
 - id: IP1
-  apk: EmulatorDetection/IP1.apk
+  apk: IP1.apk
   expected: 1
 
 - id: PI1
-  apk: EmulatorDetection/PI1.apk
+  apk: PI1.apk
   expected: 1
 
 - id: PlayStore1
-  apk: EmulatorDetection/PlayStore1.apk
+  apk: PlayStore1.apk
   expected: 2
 
 - id: PlayStore2
-  apk: EmulatorDetection/PlayStore2.apk
+  apk: PlayStore2.apk
   expected: 1
 
 - id: Sensors1
-  apk: EmulatorDetection/Sensors1.apk
+  apk: Sensors1.apk
   expected: 1
 
 - id: SubscriberId1
-  apk: EmulatorDetection/SubscriberId1.apk
+  apk: SubscriberId1.apk
   expected: 1
 
 - id: VoiceMail1
-  apk: EmulatorDetection/VoiceMail1.apk
+  apk: VoiceMail1.apk
   expected: 1

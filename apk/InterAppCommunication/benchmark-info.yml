@@ -1,81 +1,81 @@
 - id: Echoer
-  apk: InterAppCommunication/Echoer.apk
+  apk: Echoer.apk
   expected: 3
 
 - id: SendSMS
-  apk: InterAppCommunication/SendSMS.apk
+  apk: SendSMS.apk
   expected: 3
 
 - id: StartActivityForResult1
-  apk: InterAppCommunication/StartActivityForResult1.apk
+  apk: StartActivityForResult1.apk
   expected: 6
 
 - id: Collector
-  apk: InterAppCommunication/Collector/Collector.apk
+  apk: Collector/Collector.apk
   expected: 2
 
 - id: DeviceId_Broadcast1
-  apk: InterAppCommunication/Device Id leakage/DeviceId_Broadcast1.apk
+  apk: Device Id leakage/DeviceId_Broadcast1.apk
   expected: 1
 
 - id: DeviceId_contentProvider1
-  apk: InterAppCommunication/Device Id leakage/DeviceId_contentProvider1.apk
+  apk: Device Id leakage/DeviceId_contentProvider1.apk
   expected: 1
 
 - id: DeviceId_OrderedIntent1
-  apk: InterAppCommunication/Device Id leakage/DeviceId_OrderedIntent1.apk
+  apk: Device Id leakage/DeviceId_OrderedIntent1.apk
   expected: 1
 
 - id: DeviceId_Service1
-  apk: InterAppCommunication/Device Id leakage/DeviceId_Service1.apk
+  apk: Device Id leakage/DeviceId_Service1.apk
   expected: 1
 
 - id: Location1
-  apk: InterAppCommunication/Location leakage/Location1.apk
+  apk: Location leakage/Location1.apk
   expected: 2
 
 - id: Location_Broadcast1
-  apk: InterAppCommunication/Location leakage/Location_Broadcast1.apk
+  apk: Location leakage/Location_Broadcast1.apk
   expected: 2
 
 - id: Location_Service1
-  apk: InterAppCommunication/Location leakage/Location_Service1.apk
+  apk: Location leakage/Location_Service1.apk
   expected: 2
 
 
 - id: SendSMS-Echoer
-  apk: InterAppCommunication/org.cert.echoer-ac-org.cert.sendsms.apk
+  apk: org.cert.echoer-ac-org.cert.sendsms.apk
   expected: 3
 
 - id: StartActivityForResult1-Echoer
-  apk: InterAppCommunication/org.cert.echoer-ac-org.cert.WriteFile.apk
+  apk: org.cert.echoer-ac-org.cert.WriteFile.apk
   expected: 6
 
 
 - id: DeviceId_Broadcast1-Echoer
-  apk: InterAppCommunication/com.example.collector-ac-com.example.deviceid_broadcast.apk
+  apk: com.example.collector-ac-com.example.deviceid_broadcast.apk
   expected: 1
 
 - id: DeviceId_contentProvider1-Echoer
-  apk: InterAppCommunication/com.example.collector-ac-com.example.deviceid_contentprovider1.apk
+  apk: com.example.collector-ac-com.example.deviceid_contentprovider1.apk
   expected: 1
 
 - id: DeviceId_OrderedIntent1-Echoer
-  apk: InterAppCommunication/com.example.collector-ac-com.example.deviceid_orderedintent.apk
+  apk: com.example.collector-ac-com.example.deviceid_orderedintent.apk
   expected: 1
 
 - id: DeviceId_Service1-Echoer
-  apk: InterAppCommunication/com.example.collector-ac-com.example.deviceid_service.apk
+  apk: com.example.collector-ac-com.example.deviceid_service.apk
   expected: 1
 
 - id: Location1-Echoer
-  apk: InterAppCommunication/com.example.collector-ac-com.example.location.apk
+  apk: com.example.collector-ac-com.example.location.apk
   expected: 2
 
 - id: Location_Broadcast1-Echoer
-  apk: InterAppCommunication/com.example.collector-ac-com.example.location_broadcast.apk
+  apk: com.example.collector-ac-com.example.location_broadcast.apk
   expected: 2
 
 - id: Location_Service1-Echoer
-  apk: InterAppCommunication/com.example.collector-ac-com.example.location_service.apk
+  apk: com.example.collector-ac-com.example.location_service.apk
   expected: 2

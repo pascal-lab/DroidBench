@@ -1,11 +1,11 @@
 - id: DynamicBoth1
-  apk: DynamicLoading/DynamicBoth1.apk
+  apk: DynamicBoth1.apk
   expected: 1
 
 - id: DynamicSink1
-  apk: DynamicLoading/DynamicSink1.apk
+  apk: DynamicSink1.apk
   expected: 1
 
 - id: DynamicSource1
-  apk: DynamicLoading/DynamicSource1.apk
+  apk: DynamicSource1.apk
   expected: 1

@@ -1,103 +1,103 @@
 - id: Clone1
-  apk: GeneralJava/Clone1.apk
+  apk: Clone1.apk
   expected: 1
 
 - id: Loop1
-  apk: GeneralJava/Loop1.apk
+  apk: Loop1.apk
   expected: 1
 
 - id: Serialization1
-  apk: GeneralJava/Serialization1.apk
+  apk: Serialization1.apk
   expected: 1
 
 - id: Loop2
-  apk: GeneralJava/Loop2.apk
+  apk: Loop2.apk
   expected: 1
 
 - id: Exceptions1
-  apk: GeneralJava/Exceptions1.apk
+  apk: Exceptions1.apk
   expected: 1
 
 - id: Exceptions2
-  apk: GeneralJava/Exceptions2.apk
+  apk: Exceptions2.apk
   expected: 1
 
 - id: Exceptions3
-  apk: GeneralJava/Exceptions3.apk
+  apk: Exceptions3.apk
   expected: 0
 
 - id: Exceptions4
-  apk: GeneralJava/Exceptions4.apk
+  apk: Exceptions4.apk
   expected: 1
 
 - id: Exceptions5
-  apk: GeneralJava/Exceptions5.apk
+  apk: Exceptions5.apk
   expected: 1
 
 - id: Exceptions6
-  apk: GeneralJava/Exceptions6.apk
+  apk: Exceptions6.apk
   expected: 1
 
 - id: Exceptions7
-  apk: GeneralJava/Exceptions7.apk
+  apk: Exceptions7.apk
   expected: 0
 
 - id: FactoryMethods1
-  apk: GeneralJava/FactoryMethods1.apk
+  apk: FactoryMethods1.apk
   expected: 2
 
 - id: SourceCodeSpecific1
-  apk: GeneralJava/SourceCodeSpecific1.apk
+  apk: SourceCodeSpecific1.apk
   expected: 1
 
 - id: StartProcessWithSecret1
-  apk: GeneralJava/StartProcessWithSecret1.apk
+  apk: StartProcessWithSecret1.apk
   expected: 1
 
 - id: StaticInitialization1
-  apk: GeneralJava/StaticInitialization1.apk
+  apk: StaticInitialization1.apk
   expected: 1
 
 - id: StaticInitialization2
-  apk: GeneralJava/StaticInitialization2.apk
+  apk: StaticInitialization2.apk
   expected: 1
 
 - id: StaticInitialization3
-  apk: GeneralJava/StaticInitialization3.apk
+  apk: StaticInitialization3.apk
   expected: 1
 
 - id: StringFormatter1
-  apk: GeneralJava/StringFormatter1.apk
+  apk: StringFormatter1.apk
   expected: 1
 
 - id: StringPatternMatching1
-  apk: GeneralJava/StringPatternMatching1.apk
+  apk: StringPatternMatching1.apk
   expected: 1
 
 - id: StringToCharArray1
-  apk: GeneralJava/StringToCharArray1.apk
+  apk: StringToCharArray1.apk
   expected: 1
 
 - id: StringToOutputStream1
-  apk: GeneralJava/StringToOutputStream1.apk
+  apk: StringToOutputStream1.apk
   expected: 1
 
 - id: UnreachableCode
-  apk: GeneralJava/UnreachableCode.apk
+  apk: UnreachableCode.apk
   expected: 0
 
 - id: VirtualDispatch1
-  apk: GeneralJava/VirtualDispatch1.apk
+  apk: VirtualDispatch1.apk
   expected: 1
 
 - id: VirtualDispatch2
-  apk: GeneralJava/VirtualDispatch2.apk
+  apk: VirtualDispatch2.apk
   expected: 1
 
 - id: VirtualDispatch3
-  apk: GeneralJava/VirtualDispatch3.apk
+  apk: VirtualDispatch3.apk
   expected: 0
 
 - id: VirtualDispatch4
-  apk: GeneralJava/VirtualDispatch4.apk
+  apk: VirtualDispatch4.apk
   expected: 0

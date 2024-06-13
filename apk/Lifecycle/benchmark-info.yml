@@ -1,95 +1,95 @@
 - id: ActivityEventSequence1
-  apk: Lifecycle/ActivityEventSequence1.apk
+  apk: ActivityEventSequence1.apk
   expected: 1
 
 - id: ActivityEventSequence2
-  apk: Lifecycle/ActivityEventSequence2.apk
+  apk: ActivityEventSequence2.apk
   expected: 1
 
 - id: ActivityEventSequence3
-  apk: Lifecycle/ActivityEventSequence3.apk
+  apk: ActivityEventSequence3.apk
   expected: 1
 
 - id: ActivityLifecycle1
-  apk: Lifecycle/ActivityLifecycle1.apk
+  apk: ActivityLifecycle1.apk
   expected: 1
 
 - id: ActivityLifecycle2
-  apk: Lifecycle/ActivityLifecycle2.apk
+  apk: ActivityLifecycle2.apk
   expected: 1
 
 - id: ActivityLifecycle3
-  apk: Lifecycle/ActivityLifecycle3.apk
+  apk: ActivityLifecycle3.apk
   expected: 1
 
 - id: ActivityLifecycle4
-  apk: Lifecycle/ActivityLifecycle4.apk
+  apk: ActivityLifecycle4.apk
   expected: 1
 
 - id: ActivitySavedState1
-  apk: Lifecycle/ActivitySavedState1.apk
+  apk: ActivitySavedState1.apk
   expected: 1
 
 - id: ApplicationLifecycle1
-  apk: Lifecycle/ApplicationLifecycle1.apk
+  apk: ApplicationLifecycle1.apk
   expected: 1
 
 - id: ApplicationLifecycle2
-  apk: Lifecycle/ApplicationLifecycle2.apk
+  apk: ApplicationLifecycle2.apk
   expected: 1
 
 - id: ApplicationLifecycle3
-  apk: Lifecycle/ApplicationLifecycle3.apk
+  apk: ApplicationLifecycle3.apk
   expected: 1
 
 - id: AsynchronousEventOrdering1
-  apk: Lifecycle/AsynchronousEventOrdering1.apk
+  apk: AsynchronousEventOrdering1.apk
   expected: 1
 
 - id: BroadcastReceiverLifecycle1
-  apk: Lifecycle/BroadcastReceiverLifecycle1.apk
+  apk: BroadcastReceiverLifecycle1.apk
   expected: 1
 
 - id: BroadcastReceiverLifecycle2
-  apk: Lifecycle/BroadcastReceiverLifecycle2.apk
+  apk: BroadcastReceiverLifecycle2.apk
   expected: 1
 
 - id: BroadcastReceiverLifecycle3
-  apk: Lifecycle/BroadcastReceiverLifecycle3.apk
+  apk: BroadcastReceiverLifecycle3.apk
   expected: 1
 
 - id: EventOrdering1
-  apk: Lifecycle/EventOrdering1.apk
+  apk: EventOrdering1.apk
   expected: 1
 
 - id: FragmentLifecycle1
-  apk: Lifecycle/FragmentLifecycle1.apk
+  apk: FragmentLifecycle1.apk
   expected: 1
 
 - id: FragmentLifecycle2
-  apk: Lifecycle/FragmentLifecycle2.apk
+  apk: FragmentLifecycle2.apk
   expected: 1
 
 - id: ServiceEventSequence1
-  apk: Lifecycle/ServiceEventSequence1.apk
+  apk: ServiceEventSequence1.apk
   expected: 1
 
 - id: ServiceEventSequence2
-  apk: Lifecycle/ServiceEventSequence2.apk
+  apk: ServiceEventSequence2.apk
   expected: 1
 
 - id: ServiceEventSequence3
-  apk: Lifecycle/ServiceEventSequence3.apk
+  apk: ServiceEventSequence3.apk
   expected: 1
 
 - id: ServiceLifecycle1
-  apk: Lifecycle/ServiceLifecycle1.apk
+  apk: ServiceLifecycle1.apk
   expected: 1
 
 - id: ServiceLifecycle2
-  apk: Lifecycle/ServiceLifecycle2.apk
+  apk: ServiceLifecycle2.apk
   expected: 1
 
 - id: SharedPreferenceChanged1
-  apk: Lifecycle/SharedPreferenceChanged1.apk
+  apk: SharedPreferenceChanged1.apk
   expected: 1

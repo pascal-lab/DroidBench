@@ -41,3 +41,41 @@
 - id: Location_Service1
   apk: InterAppCommunication/Location leakage/Location_Service1.apk
   expected: 2
+
+
+- id: SendSMS-Echoer
+  apk: InterAppCommunication/org.cert.echoer-ac-org.cert.sendsms.apk
+  expected: 3
+
+- id: StartActivityForResult1-Echoer
+  apk: InterAppCommunication/org.cert.echoer-ac-org.cert.WriteFile.apk
+  expected: 6
+
+
+- id: DeviceId_Broadcast1-Echoer
+  apk: InterAppCommunication/com.example.collector-ac-com.example.deviceid_broadcast.apk
+  expected: 1
+
+- id: DeviceId_contentProvider1-Echoer
+  apk: InterAppCommunication/com.example.collector-ac-com.example.deviceid_contentprovider1.apk
+  expected: 1
+
+- id: DeviceId_OrderedIntent1-Echoer
+  apk: InterAppCommunication/com.example.collector-ac-com.example.deviceid_orderedintent.apk
+  expected: 1
+
+- id: DeviceId_Service1-Echoer
+  apk: InterAppCommunication/com.example.collector-ac-com.example.deviceid_service.apk
+  expected: 1
+
+- id: Location1-Echoer
+  apk: InterAppCommunication/com.example.collector-ac-com.example.location.apk
+  expected: 2
+
+- id: Location_Broadcast1-Echoer
+  apk: InterAppCommunication/com.example.collector-ac-com.example.location_broadcast.apk
+  expected: 2
+
+- id: Location_Service1-Echoer
+  apk: InterAppCommunication/com.example.collector-ac-com.example.location_service.apk
+  expected: 2

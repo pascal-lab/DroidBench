@@ -4,7 +4,6 @@
 
 - id: ActivityCommunication2
   apk: InterComponentCommunication/ActivityCommunication2.apk
-  distinguishString: all
   expected: 1
 
 - id: ActivityCommunication3
@@ -71,3 +70,35 @@
 - id: UnresolvableIntent1
   apk: InterComponentCommunication/UnresolvableIntent1.apk
   expected: 2
+
+- id: ActivityCommunication9 # reply
+  apk: InterComponentCommunication/ActivityCommunication9.apk
+  expected: 1
+
+- id: ServiceCommunication2 # reply
+  apk: InterComponentCommunication/ServiceCommunication2.apk
+  expected: 1
+
+- id: IntentExtra # intent map
+  apk: InterComponentCommunication/IntentExtra.apk
+  expected: 1
+
+- id: ICCData # icc data
+  apk: InterComponentCommunication/ICCData.apk
+  expected: 1
+
+- id: ICCData2 # icc data
+  apk: InterComponentCommunication/ICCData2.apk
+  expected: 1
+
+- id: Handler # handler model
+  apk: InterComponentCommunication/Handler.apk
+  expected: 1
+
+- id: SecondStart # second start receiver
+  apk: InterComponentCommunication/SecondStart.apk
+  expected: 1
+
+- id: SecondStart2 # second start service onStartCommand
+  apk: InterComponentCommunication/SecondStart2.apk
+  expected: 1

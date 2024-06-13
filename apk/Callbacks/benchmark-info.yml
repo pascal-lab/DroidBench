@@ -32,7 +32,7 @@
 
 - id: LocationLeak3
   apk: Callbacks/LocationLeak3.apk
-  expected: 1
+  expected: 2
 
 - id: MethodOverride1
   apk: Callbacks/MethodOverride1.apk
@@ -40,8 +40,6 @@
 
 - id: MultiHandlers1
   apk: Callbacks/MultiHandlers1.apk
-  onlyApp: false
-  cs: 1-call
   expected: 0
 
 - id: Ordering1

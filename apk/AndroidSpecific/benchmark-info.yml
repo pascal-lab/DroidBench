@@ -36,7 +36,7 @@
 
 - id: PrivateDataLeak3
   apk: AndroidSpecific/PrivateDataLeak3.apk
-  expected: 2
+  expected: 1
 
 - id: PublicAPIField1
   apk: AndroidSpecific/PublicAPIField1.apk

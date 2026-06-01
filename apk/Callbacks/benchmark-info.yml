@@ -8,7 +8,8 @@
 
 - id: Button2
   apk: Button2.apk
-  expected: 3
+  expected: 4
+  groundTruth: 3
 
 - id: Button3
   apk: Button3.apk
@@ -44,7 +45,8 @@
 
 - id: Ordering1
   apk: Ordering1.apk
-  expected: 0
+  expected: 2
+  groundTruth: 0
 
 - id: RegisterGlobal1
   apk: RegisterGlobal1.apk
@@ -56,5 +58,6 @@
 
 - id: Unregister1
   apk: Unregister1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 

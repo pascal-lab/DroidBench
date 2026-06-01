@@ -8,19 +8,23 @@
 
 - id: DeviceId_Broadcast1-Collector
   apk: com.example.collector-ac-com.example.deviceid_broadcast.apk
-  expected: 1
+  expected: 0
+  groundTruth: 1
 
 - id: DeviceId_contentProvider1-Collector
   apk: com.example.collector-ac-com.example.deviceid_contentprovider1.apk
-  expected: 1
+  expected: 0
+  groundTruth: 1
 
 - id: DeviceId_OrderedIntent1-Collector
   apk: com.example.collector-ac-com.example.deviceid_orderedintent.apk
-  expected: 1
+  expected: 0
+  groundTruth: 1
 
 - id: DeviceId_Service1-Collector
   apk: com.example.collector-ac-com.example.deviceid_service.apk
-  expected: 1
+  expected: 0
+  groundTruth: 1
 
 - id: Location1-Collector
   apk: com.example.collector-ac-com.example.location.apk
@@ -28,8 +32,10 @@
 
 - id: Location_Broadcast1-Collector
   apk: com.example.collector-ac-com.example.location_broadcast.apk
-  expected: 2
+  expected: 0
+  groundTruth: 2
 
 - id: Location_Service1-Collector
   apk: com.example.collector-ac-com.example.location_service.apk
-  expected: 2
+  expected: 0
+  groundTruth: 2

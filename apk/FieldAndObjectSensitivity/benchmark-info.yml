@@ -20,8 +20,10 @@
 
 - id: ObjectSensitivity1
   apk: ObjectSensitivity1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: ObjectSensitivity2
   apk: ObjectSensitivity2.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0

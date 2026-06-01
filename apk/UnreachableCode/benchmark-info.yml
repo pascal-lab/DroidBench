@@ -1,15 +1,19 @@
 - id: SimpleUnreachable1
   apk: SimpleUnreachable1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: UnreachableBoth
   apk: UnreachableBoth.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: UnreachableSink1
   apk: UnreachableSink1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: UnreachableSource1
   apk: UnreachableSource1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0

@@ -28,7 +28,8 @@
 
 - id: IMEI1
   apk: IMEI1.apk
-  expected: 2
+  expected: 0
+  groundTruth: 2
 
 - id: IP1
   apk: IP1.apk

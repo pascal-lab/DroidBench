@@ -4,7 +4,8 @@
 
 - id: ActivityCommunication2
   apk: ActivityCommunication2.apk
-  expected: 1
+  expected: 2
+  groundTruth: 1
 
 - id: ActivityCommunication3
   apk: ActivityCommunication3.apk

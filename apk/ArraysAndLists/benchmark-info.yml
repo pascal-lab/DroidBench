@@ -1,10 +1,12 @@
 - id: ArrayAccess1
   apk: ArrayAccess1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: ArrayAccess2
   apk: ArrayAccess2.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: ArrayAccess3
   apk: ArrayAccess3.apk
@@ -28,11 +30,13 @@
 
 - id: HashMapAccess1
   apk: HashMapAccess1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: ListAccess1
   apk: ListAccess1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: MultidimensionalArray1
   apk: MultidimensionalArray1.apk

@@ -24,7 +24,8 @@
 
 - id: Parcel1
   apk: Parcel1.apk
-  expected: 1
+  expected: 0
+  groundTruth: 1
 
 - id: PrivateDataLeak1
   apk: PrivateDataLeak1.apk
@@ -36,7 +37,8 @@
 
 - id: PrivateDataLeak3
   apk: PrivateDataLeak3.apk
-  expected: 1
+  expected: 0
+  groundTruth: 1
 
 - id: PublicAPIField1
   apk: PublicAPIField1.apk

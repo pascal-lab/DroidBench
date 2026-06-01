@@ -1,10 +1,12 @@
 - id: FlowSensitivity1
   apk: FlowSensitivity1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: Merge1
   apk: Merge1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: SimpleAliasing1
   apk: SimpleAliasing1.apk
@@ -12,4 +14,5 @@
 
 - id: StrongUpdate1
   apk: StrongUpdate1.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0

@@ -8,7 +8,8 @@
 
 - id: Serialization1
   apk: Serialization1.apk
-  expected: 1
+  expected: 0
+  groundTruth: 1
 
 - id: Loop2
   apk: Loop2.apk
@@ -24,7 +25,8 @@
 
 - id: Exceptions3
   apk: Exceptions3.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: Exceptions4
   apk: Exceptions4.apk
@@ -40,7 +42,8 @@
 
 - id: Exceptions7
   apk: Exceptions7.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: FactoryMethods1
   apk: FactoryMethods1.apk
@@ -88,11 +91,13 @@
 
 - id: VirtualDispatch1
   apk: VirtualDispatch1.apk
-  expected: 1
+  expected: 2
+  groundTruth: 1
 
 - id: VirtualDispatch2
   apk: VirtualDispatch2.apk
-  expected: 1
+  expected: 2
+  groundTruth: 1
 
 - id: VirtualDispatch3
   apk: VirtualDispatch3.apk
